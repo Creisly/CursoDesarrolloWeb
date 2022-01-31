@@ -1,0 +1,46 @@
+#cabecera {
+    color: rgb(238, 136, 224);
+    background-color: black;
+    size: 8px;
+    padding: 20px;
+    border: 2px;
+}
+
+#cabecera :nth-child(odd) {
+    background-color: #3f3e32;
+    color: aqua;
+}
+
+#menu {
+    background-color: rgba(139, 23, 130, 0.8);
+    padding: 8px 510px;
+}
+
+#menu > ul > li{
+    display: -ms-inline-grid;
+    list-style: circle;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(90, 5, 12); width: 70px;
+}
+
+#seccion{
+    float: right;
+    width: 733px;
+    margin: 30px px;
+    background-color: rgba(85, 17, 17, 0.8);
+}
+
+#lateral{
+    float: left;
+    width: 600px;
+    margin:20px px;
+    background-color: rgba(100, 48, 48, 0.8);
+}
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 20px dashed #000;
+}
