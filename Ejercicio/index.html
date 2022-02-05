@@ -6,50 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenido - Home</title>
-    <link rel="stylesheet" href="./estiles.css">
 </head>
 
 <body>
-    <header id="cabecera">
-        <h1>Este es un titulo de mi página web</h1>
-        <h2>Este es otro titulo</h2>
-    </header>
+    <div id="contenido">
+        <header id="titulos">
+            <h1>Curso de desarrollo WEB</h1>
+            <!-- <h2>Este es otro titulo</h2>
+        <h3>Este es otro titulo</h3>
+        <h4>Este es otro titulo</h4>
+        <h5>Este es otro titulo</h5>
+        <h6>Este es otro titulo</h6> -->
+        <link rel="stylesheet" href="estiles.css">
+        </header>
 
-    <!-- MENU -->
-    <nav id="menu">
-        <ul class=>
-            <li>Home</li>
-            <li>Fotos</li>
-            <li>Videos</li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
+        <!-- MENU -->
+        <nav id="nav-bar">
+            <ul id="tabla">
+                <li>Cronograma</li>
+                <li>Tareas</li>
+                <li>Examen</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
 
-    <!-- PRODUCTOS -->
-    <section id="seccion">
-        <!-- ARTICULO -->
-        <article>
-            <header>
-                <hgroup>
-                    <h1>Titulo del mensaje uno</h1>
-                </hgroup>
-            </header>
-            <footer>
-                <p>Comentarios (0)</p>
-            </footer>
-        </article>
-    </section>
+        <!-- PRODUCTOS -->
+        <section id="seccion">
+            <!-- ARTICULO -->
+            <article id="contenido1">
+                <header class="cabezera">
+                    <hgroup id="grupo">
+                        <h2>Página realizada con el ejericio de clase 2</h2>
+                        <h1>Temas: CSS y HTML</h1>
+                    </hgroup>
+                    <p>Este pagina web correponde a la primera tarea del curso de programación, semanalmente se iran colocando asignaciones con puntuacion y fecha tope de entrega. Con la finalidad de que el alumno practique lo que aprende en las clases.</p>
+                </header>
+                <figure>
+                    <img src="./imagenes/estudiante.jpg" alt="">
+                    <figcaption>
+                        Esta es la red de escalab
+                    </figcaption>
+                </figure>
+            </article>
+            <article id="contenido2">
+                <header id="resaltar">
+                    <h2>La clases N°4 trata sobre CSS mas avanzado</h2>
+                </header>
+                <p>En esta clase deberiamos culminar la sección de CSS, esto lo estimo el profesor en el cronograma de
+                    la clase 1.</p>
+                <footer>
+                    <blockquote>Comentarios (10)</blockquote>
+                    <blockquote>Visitas (20)</blockquote>
+                </footer>
+            </article>
+        </section>
 
-    <!-- BARRA LATERAL -->
-    <aside id="lateral">
-        <p>Mensaje uno</p>
-        <p>Mensaje dos</p>
-        <p>Mensaje tres</p>
-    </aside>
+        <!-- BARRA LATERAL -->
+        <aside id="side">
+            <p>Cursos</p>
+            <p>Cronogramas</p>
+            <p>Promociones</p>
+            <p>Planes de estudio</p>
+            <p>Java</p>
+            <p>Java Scrip</p>
+            <p>Python</p>
+            <p>C++</p>
+            <p>C#</p>
+            <p>PHP</p>
+            <p>TypeScrip</p>
+            <p>Ruby</p>
+            <p>Go</p>
+            <p>Swift</p>
+            <p>Kotlin</p>
+            <p>Rust</p>
+        </aside>
 
-    <footer id="pie">
-        <p class="derechos">Derechos Reservados</p>
-    </footer>
+        <footer id="pie">
+            <p>Derechos Reservados</p>
+        </footer>
+    </div>
 </body>
 
 </html>
